@@ -1,0 +1,16 @@
+{
+  "name": "@taskflow/desktop",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "electron .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "electron": "^34.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.2"
+  }
+}
