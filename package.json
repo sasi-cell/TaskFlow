@@ -12,9 +12,12 @@
     "build": "turbo run build",
     "build:web": "npm run build --workspace=@taskflow/web",
     "typecheck": "turbo run typecheck",
-    "dev:mobile": "npm run start --workspace=@taskflow/mobile"
+    "dev:mobile": "npm run start --workspace=@taskflow/mobile",
+    "test": "turbo run test"
   },
+  "packageManager": "npm@11.9.0",
   "devDependencies": {
-    "turbo": "^2.4.0"
+    "turbo": "^2.4.0",
+    "vitest": "^4.0.18"
   }
 }
